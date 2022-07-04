@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<head>
+
+    <meta charset="utf-8">
+	<title>Script Encoder Decoder</title>
+
+   <link rel="stylesheet" href="css/default.css">
+	<link rel="stylesheet" href="css/layout.css">  
+	<link rel="shortcut icon" href="oracle.ico" >
+
+</head>
+
+<body>
+
+   <header id="home">
+
+      <nav id="nav-wrap">
+
+         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+
+         <ul id="nav" class="nav">
+            <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
+            <li><a class="smoothscroll" href="#example">example</a></li>
+            <li><a class="smoothscroll" href="#about">About</a></li>
+            <li><a class="smoothscroll" href="#tool">Softwares</a></li>
+	         <li><a class="smoothscroll" href="#RoadMap">RoadMap</a></li>
+            
+            
+         </ul> 
+
+      </nav>
+
+      <div class="row banner">
+         <div class="banner-text">
+            <h1 class="responsive-headline">Script Encoder Decoder</h1>
+            <h3>Identify and Encode potentially harmful and vulnerable tags in HTML documents through a Java application. Giving user the flexibility to encode as well as decode the tags and scripts which posses the risk to make the document safe.
+            </h3>
+            <hr />
+         </div>
+      </div>
+
+      <p class="scrolldown">
+         <a class="smoothscroll" href="#RoadMap"><i class="fa fa-arrow-down"></i></a>
+      </p>
+
+   </header>
+
+
+   <!--  Section Examples
+   ================================================== -->
+
+   <script type="text/javascript">
+      function changeImage(a) {
+          document.getElementById("img").src=a;
+      }
+  </script>
+
+   <section id="example">
+
+   <div class="example-container">
+   <h3 class="example-h3">Click on the image below to see encoding example</h3>
+   <img class="example-img" id="img" src="images/example.png" onclick='changeImage("images/example-encoded.png");'>
+   </div>
+
+
+   </section> <!-- example Section End-->
+
+
+   <!-- About Section
+   ================================================== -->
+
+   <script type="text/javascript">
+      function sendEmail() {
+         parent.location='mailto:anujpopli11@gmail.com';
+      }
+  </script>
+
+<script type="text/javascript">
+   function sendEmail2() {
+      parent.location='mailto:anujpopli11@gmail.com';
+   }
+</script>
+
+   <section id="about">
+   <div class="parent">
+      
+      <div class="child">
+      <div class="row red">
+
+         <div>
+            <script type="text/javascript">
+               function openId(link) {
+                  window.open(link, '_blank');
+               }
+            </script>
+
+            <img class="profile-pic"  src="images/profilepic.jpg" alt="" onmouseover='openId("https://www.linkedin.com/in/anuj-popli-40a223192/")'>
+
+         </div>
+
+         <div>
+
+            <h2>About Me</h2>
+
+            <p>Hey! I am Anuj.<br> 
+               I am from Chandigarh and am pursuing my engineering degree from IIT Roorkee.<br>
+               I am currently working at Oracle as a summer intern.
+            </p>
+
+            <div class="row">
+
+               <div class="columns contact-details">
+
+                  <h2>Contact Details</h2>
+                  <p class="address">
+						   <span>Anuj Popli</span><br>
+						   <span>IIT Roorkee
+                     </span><br>
+						   <span>+91 946799XXXX</span><br>
+                     <span>anujpopli11@gmail.com</span>
+					   </p>
+
+               </div>
+              
+               <div class="columns download">
+                  <p>
+                     <a class="button" onclick=sendEmail()><i class="fa fa-envelope"></i>Send Email</a>
+                  </p>
+               </div>
+
+            </div> <!-- end row -->
+
+         </div> <!-- end .main-col -->
+
+      </div>
+      </div>
+
+      <div class="child">
+      <div class="row yellow">
+
+         <div>
+
+            <img class="profile-pic"  src="images/profilepic2.jpg" alt="" onmouseover='openId("https://www.linkedin.com/in/adarsh-anand1/")'>
+
+         </div>
+
+         <div>
+
+            <h2>About Me</h2>
+
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
+            eaque ipsa quae ab illo inventore veritatis et quasi architecto 
+            </p>
+
+            <div class="row">
+
+               <div class="columns contact-details">
+
+                  <h2>Contact Details</h2>
+                  <p class="address">
+						   <span>Adarsh Anand</span><br>
+						   <span>IIT Kanpur
+                     </span><br>
+						   <span>+91 946799XXXX</span><br>
+                     <span>anujpopli11@gmail.com</span>
+					   </p>
+
+               </div>
+
+               <div class="columns download">
+                  <p>
+                     <a onclick=sendEmail2() class="button"><i class="fa fa-envelope"></i>Send Email</a>
+                  </p>
+               </div>
+
+            </div> <!-- end row -->
+
+         </div> <!-- end .main-col -->
+
+      </div>
+   </div>
+
+   </section> <!-- About Section End-->
+
+   <!-- tool Section
+   ================================================== -->
+   
+   <section id="tool">
+
+      <div class="row">
+
+         <div class="twelve columns collapsed">
+
+            <h1>Softwares used in internship</h1>
+
+            <!-- tool-wrapper -->
+            <div id="tool-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
+
+          	   <div class="columns tool-item">
+                  <div class="item-wrap" onclick='openId("https://www.eclipse.org/ide/")'>
+
+                     <a href="#modal-01" title="">
+                        <img alt="" src="images/tool/tool1.png">
+                        <div class="overlay">
+                           <div class="tool-item-meta">
+          					      <h5>Eclipse IDE</h5>
+          					   </div>
+                        </div>
+                        
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+                
+
+               <div class="columns tool-item">
+                  <div class="item-wrap" onclick='openId("https://tortoisesvn.net/")'>
+
+                     <a href="#modal-02" title="">
+                        <img alt="" src="images/tool/tool2.png">
+                        <div class="overlay">
+                           <div class="tool-item-meta">
+          					      <h5>Tortoise SVN</h5>
+          					   </div>
+                        </div>
+                     
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns tool-item">
+                  <div class="item-wrap" onclick='openId("https://www.scootersoftware.com/")'>
+
+                     <a href="#modal-03" title="">
+                        <img alt="" src="images/tool/tool3.png">
+                        <div class="overlay">
+                           <div class="tool-item-meta">
+          					      <h5>Beyond Compare 3</h5>
+          					   </div>
+                        </div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns tool-item">
+                  <div class="item-wrap" onclick='openId("https://github.com/")'>
+
+                     <a href="#modal-04" title="">
+                        <img alt="" src="images/tool/tool4.png">
+                        <div class="overlay">
+                           <div class="tool-item-meta">
+          					      <h5>Github</h5>
+          					   </div>
+                        </div>
+                        
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+            </div> <!-- tool-wrapper end -->
+
+         </div> <!-- twelve columns end -->
+
+       
+
+      </div> <!-- row End -->
+
+   </section> <!-- tool Section End-->
+
+      <!-- RoadMap Section
+   ================================================== -->
+   
+   <!-- <script type="text/javascript">
+      function openPpt() {
+         window.open('https://iitracin-my.sharepoint.com/:p:/g/personal/anuj_p_ee_iitr_ac_in/EV5Kl94aqR9JpQkuIrBs9dUBZhfOoi27EFuJbeuCSiTMvA?e=hceYeQ');
+      }
+   </script> -->
+   
+   
+   <section id="RoadMap" onmouseover=openPpt()>
+
+
+      <div class="row education">
+
+         <div class="three columns header-col">
+            <h1><span>Week 1</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+                  <p>
+                     <ul class="weeks-list">
+                        <li>Attended Oracle Cloud Foundation Bootcamp</li>
+                        <li>Learning about Java and primary Setup(Eclipse)</li>
+                        <li>Implementation of code which identifies JavaScript tags in HTML documents</li>	
+                        <li>Learning about J-Soup library and using it for faster implementation of the above program
+                     </ul>
+                  </p>
+
+               </div>
+
+            </div> 
+
+         </div> 
+
+      </div> 
+
+      <div class="row education">
+
+         <div class="three columns header-col">
+            <h1><span>Week 2</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+                  <p>
+                  <ul class="weeks-list">
+                    <li>Creating a Script Data Binder java function which incorporates inputs from user regarding
+                     <br>the vulnerable tags to be processed.</li> 
+                    <li>Using HashMap data structure to store the configuration data</li> 
+                    <li>Using .htm tables for user friendly experience for modifying the configurations.</li> 
+                    <li>Identifying the potentially vulnerable ways in which the tags can be formatted to avoid
+                     <br>detection and encoding</li> 
+                        
+                  </ul>
+                  </p>
+
+               </div>
+
+            </div> 
+
+         </div> 
+
+      </div>
+
+       
+      <div class="row education">
+
+         <div class="three columns header-col">
+            <h1><span>Week 3</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+                  <p>
+                   <ul class="weeks-list">
+                     <li>Creating a Script Encoder and Decoder function which reads the input files<br>
+                      encodes/decodes the same and writes the processed file to output folder.</li>
+                     <li>Using Regex function and Patter Matcher in Java to identify the tag patterns.</li> 
+                     <li>The tags which needs to be encoded/decoded will be received from the Script Data
+                     <br> Binder File which processes the configuration file.</li>
+                   </ul>
+                  </p>
+
+               </div>
+
+            </div> 
+
+         </div> 
+
+      </div> 
+
+      <div class="row education">
+
+         <div class="three columns header-col">
+            <h1><span>Week 4</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+                  <p>
+                     <ul class="weeks-list">
+                        <li>Incorporating two major concepts i.e., Executor Framework and<br>
+                        reading in fixed memory chunks in the java program</li>
+                        <li>Learning multi-threading, executor framework and chunking in Java.</li>
+                        <li>Using Executor Framework and multithreading to simultaneously process many<br>
+                        files making the process time efficient.</li>
+                        <li>Instead of reading whole Java File in one go reading them in fixed size<br>
+                        blocks which makes our program memory efficient and able to handle large files</li>
+                     </ul>
+                  </p>
+
+               </div>
+
+            </div>
+
+         </div> 
+
+      </div> 
+
+      <div class="row education">
+
+         <div class="three columns header-col">
+            <h1><span>Week 5</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+                  <p>
+                  <ul class="weeks-list">
+                  <li>Learning about Logger, the default logger and the log4j logger.
+                  </li>
+                  <li>Learning about SVN repository and using Tortoise SVN to upload our code files into Oracle<br>Server.
+                  </li>
+                  <li>Creating tag separated html files for payloads for testing,</li>   
+                  <li>Successfully testing the code for first 500 payloads</li>
+                  <li>Incorporating logger in the program instead of System Output Functions to log and <br>store the details more efficiently.
+                  </li>
+                  </ul>
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Education -->
+
+      <div class="row education">
+
+         <div class="three columns header-col">
+            <h1><span>Week 6</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+                  <p>
+                     <ul class="weeks-list">
+                        <li>Creating tag separated HTML file for all 2600 payloads
+                        </li>
+                        <li>Successfully testing the code for complete payloads
+                        </li>
+                        <li>Reading about and Configuring the log4J logger to log information in log files instead<br>of console.
+                        </li>
+                        <li>Creating a separate Script Encoder Decoder Main file which provides functionality <br>to the user to access the program passing the input files and features<br>to be incorporated
+                        </li>
+                        <li>Creating executable JAR files file and testing the same with the all payloads
+                        </li>
+                     </ul>
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Education -->
+
+   </section>
+
+
+
+   <!-- Java Script
+   ================================================== -->
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script src="js/init.js"></script>
+
+</body>
+
+</html>
